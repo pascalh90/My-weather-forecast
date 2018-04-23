@@ -13,6 +13,7 @@ This web-app auto refresh the page to show latest forecasts and show up-to last 
   - Forecast date
   - Mini temperature
   - Maxi temperature
+  - Is Bad weather
   
 ## Technical details
 
