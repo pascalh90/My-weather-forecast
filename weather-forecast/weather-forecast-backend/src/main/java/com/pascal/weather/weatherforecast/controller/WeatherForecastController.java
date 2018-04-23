@@ -19,7 +19,7 @@ public class WeatherForecastController {
 	private WeatherForecastService weatherForecastService;
 	
 	@CrossOrigin(origins = "http://localhost:4200")
-	@RequestMapping(value = "/weather/forecast/getRecentForecasts", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.GET)
+	@RequestMapping(value = "/weather/recent-forecasts", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.GET)
 	public  List<WeatherForecastsByLocationResponse> getRecentWeatherForecasts() {
 		return weatherForecastService.getRecentWeatherForecastsPerLocation();
 }

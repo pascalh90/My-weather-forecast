@@ -12,7 +12,7 @@ import { WeatherForecastsByLocation } from './weatherForecastsByLocation';
 export class WeatherForecastsService {
     //Switch between mock file or backend URL
     //private weatherForecastUrl = './weather-forecasts.json';
-    private weatherForecastUrl = 'http://localhost:8080/weather/forecast/getRecentForecasts';
+    private weatherForecastUrl = 'http://localhost:8080/weather/recent-forecasts';
 
     constructor(private http: HttpClient) { }
 
