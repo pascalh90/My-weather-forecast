@@ -13,7 +13,7 @@ This web-app auto refresh the page to show latest forecasts and show up-to last 
   - Forecast date
   - Mini temperature
   - Maxi temperature
-  - Is Bad weather
+  - Weather feeling (bad :-( or good :-) ) 
   
 ## Technical details
 
@@ -42,5 +42,5 @@ The engine is configurable in the file: weather-forecast-backend/src/main/resour
    - yarn install
    - yarn start
 
-3. Go to this URL is http://localhost:4200/ for the test
+3. Go to this URL for the test: http://localhost:4200/ 
 
