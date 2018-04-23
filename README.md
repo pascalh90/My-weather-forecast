@@ -1,6 +1,8 @@
 # My-weather-forecast
 A web-app that monitors weather forecast for some specific locations
 
+ ![alt text](https://raw.githubusercontent.com/pascalh90/my-weather-forecast/master/screenshot-ui.jpg)
+ 
 ## Description
 
 This web-app contains an engine that fetch periodically weather forecast for some specific locations using AccuWeather API (https://developer.accuweather.com/apis).
