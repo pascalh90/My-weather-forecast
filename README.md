@@ -26,6 +26,9 @@ The engine is configurable in the file: weather-forecast-backend/src/main/resour
   - Interval to fetch data through weather API 
   - Locations
   - Bad weather threshold
+  - API key
+ 
+ You can create your own Accuweather App (https://developer.accuweather.com/user/me/apps) and update the property with your API key
   
 ## Instructions
 
