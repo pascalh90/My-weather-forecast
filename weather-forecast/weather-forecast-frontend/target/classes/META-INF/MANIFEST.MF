@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: weather-forecast-frontend
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: pascal
+Implementation-Vendor-Id: com.pascal.weather
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/weather-forecast/weather-forecast-frontend
+Created-By: Maven Integration for Eclipse
+

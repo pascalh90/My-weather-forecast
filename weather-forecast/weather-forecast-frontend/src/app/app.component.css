@@ -1,0 +1,19 @@
+.app {
+  text-align: left;
+}
+
+.app-header {
+  background-color: #4e47f7;
+  padding: 20px;
+  color: white;
+}
+
+.app-title {
+  font-size: 2em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.app-intro {
+  font-size: large;
+}
+

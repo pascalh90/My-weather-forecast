@@ -1,0 +1,9 @@
+<div class="weather-forecasts">
+
+  <div class="card-columns">
+    <div *ngFor="let weatherForecastsByLocation of weatherForecastsByLocation" class="card border-dark text-center bg-light mb-3">
+      <app-weather-forecast-details [weatherForecastsByLocation]="weatherForecastsByLocation"></app-weather-forecast-details>
+    </div>
+  </div>
+
+</div>

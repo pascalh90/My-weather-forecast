@@ -1,0 +1,147 @@
+[
+  {
+    "location": "Chicago",
+    "weatherForecasts": [
+      {
+        "id": 13,
+        "location": "Chicago",
+        "minTemperature": 5.0,
+        "maxTemperature": 12.8,
+        "date": "2018-04-27",
+        "fetchDate": "2018-04-22T23:45:56.374+0000",
+        "minBadWeather": true,
+        "maxBadWeather": false
+      },
+      {
+        "id": 12,
+        "location": "Chicago",
+        "minTemperature": 3.0,
+        "maxTemperature": 13.4,
+        "date": "2018-04-27",
+        "fetchDate": "2018-04-22T23:45:56.374+0000",
+        "minBadWeather": true,
+        "maxBadWeather": false
+      },
+      {
+        "id": 10,
+        "location": "Chicago",
+        "minTemperature": 3.0,
+        "maxTemperature": 13.4,
+        "date": "2018-04-27",
+        "fetchDate": "2018-04-22T23:45:46.366+0000",
+        "minBadWeather": true,
+        "maxBadWeather": false
+      },
+      {
+        "id": 8,
+        "location": "Chicago",
+        "minTemperature": 5.0,
+        "maxTemperature": 12.8,
+        "date": "2018-04-27",
+        "fetchDate": "2018-04-22T23:45:46.365+0000",
+        "minBadWeather": true,
+        "maxBadWeather": false
+      },
+      {
+        "id": 4,
+        "location": "Chicago",
+        "minTemperature": 3.0,
+        "maxTemperature": 13.4,
+        "date": "2018-04-27",
+        "fetchDate": "2018-04-22T23:45:37.767+0000",
+        "minBadWeather": true,
+        "maxBadWeather": false
+      }
+    ]
+  },
+  {
+    "location": "Paris",
+    "weatherForecasts": [
+      {
+        "id": 14,
+        "location": "Paris",
+        "minTemperature": 12.0,
+        "maxTemperature": 26.1,
+        "date": "2018-04-25",
+        "fetchDate": "2018-04-22T23:45:56.374+0000",
+        "minBadWeather": false,
+        "maxBadWeather": false
+      },
+      {
+        "id": 9,
+        "location": "Paris",
+        "minTemperature": 12.0,
+        "maxTemperature": 26.1,
+        "date": "2018-04-25",
+        "fetchDate": "2018-04-22T23:45:46.366+0000",
+        "minBadWeather": false,
+        "maxBadWeather": false
+      },
+      {
+        "id": 2,
+        "location": "Paris",
+        "minTemperature": 12.0,
+        "maxTemperature": 26.1,
+        "date": "2018-04-25",
+        "fetchDate": "2018-04-22T23:45:37.767+0000",
+        "minBadWeather": false,
+        "maxBadWeather": false
+      }
+    ]
+  },
+  {
+    "location": "Helsinki",
+    "weatherForecasts": [
+      {
+        "id": 15,
+        "location": "Helsinki",
+        "minTemperature": 1.0,
+        "maxTemperature": 10.0,
+        "date": "2018-04-23",
+        "fetchDate": "2018-04-22T23:45:56.374+0000",
+        "minBadWeather": true,
+        "maxBadWeather": true
+      },
+      {
+        "id": 11,
+        "location": "Helsinki",
+        "minTemperature": 0.0,
+        "maxTemperature": 5.9,
+        "date": "2018-04-24",
+        "fetchDate": "2018-04-22T23:45:56.373+0000",
+        "minBadWeather": true,
+        "maxBadWeather": true
+      },
+      {
+        "id": 7,
+        "location": "Helsinki",
+        "minTemperature": 1.0,
+        "maxTemperature": 10.0,
+        "date": "2018-04-23",
+        "fetchDate": "2018-04-22T23:45:46.365+0000",
+        "minBadWeather": true,
+        "maxBadWeather": true
+      },
+      {
+        "id": 6,
+        "location": "Helsinki",
+        "minTemperature": 0.0,
+        "maxTemperature": 5.9,
+        "date": "2018-04-24",
+        "fetchDate": "2018-04-22T23:45:46.365+0000",
+        "minBadWeather": true,
+        "maxBadWeather": true
+      },
+      {
+        "id": 5,
+        "location": "Helsinki",
+        "minTemperature": 1.0,
+        "maxTemperature": 10.0,
+        "date": "2018-04-23",
+        "fetchDate": "2018-04-22T23:45:37.767+0000",
+        "minBadWeather": true,
+        "maxBadWeather": true
+      }
+    ]
+  }
+]

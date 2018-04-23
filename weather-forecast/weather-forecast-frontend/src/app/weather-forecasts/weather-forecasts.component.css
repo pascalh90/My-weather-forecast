@@ -1,0 +1,11 @@
+.weather-forecasts{
+    margin:40px
+}
+
+.card{
+    display: inline-block;
+}
+
+.card-columns {
+    column-count: 2;
+}

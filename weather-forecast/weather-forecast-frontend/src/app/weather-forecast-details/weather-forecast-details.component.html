@@ -1,0 +1,32 @@
+<div class="card-body">
+  <h5 style="font-weight:bold" class="card-title">{{weatherForecastsByLocation.location}}</h5>
+
+  <div class="table-responsive">
+  <table class="table table-sm">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Fetch Date/Time</th>
+        <th scope="col">Forecast Date</th>
+        <th scope="col">Min Temp</th>
+        <th scope="col">Max Temp</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let weatherForecast of weatherForecastsByLocation.weatherForecasts">
+        <td>{{weatherForecast.fetchDate | date:'yyyy-MM-dd HH:mm:ss' }}</td>
+        <td>{{weatherForecast.date | date:'fullDate'}}</td>
+        <td>{{weatherForecast.minTemperature}} °C
+          <img *ngIf="weatherForecast.minBadWeather" src='./sad_smiley.png' title='sad' style='width:20px; height:20px' />
+          <img *ngIf="!weatherForecast.minBadWeather" src='./happy_smiley.png' title='happy' style='width:20px; height:20px' />
+        </td>
+        <td>{{weatherForecast.maxTemperature}} °C
+          <img *ngIf="weatherForecast.maxBadWeather" src='./sad_smiley.png' title='sad' style='width:20px; height:20px' />
+          <img *ngIf="!weatherForecast.maxBadWeather" src='./happy_smiley.png' title='happy' style='width:20px; height:20px'
+          />
+        </td>
+        
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
